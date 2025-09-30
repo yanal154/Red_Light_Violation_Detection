@@ -31,7 +31,7 @@ violated_ids = set()
 violations_count = 0
 prev_center = {}
 
-COLOR_LINE = (0, 0, 255)  # changed from white to red
+COLOR_LINE = (0, 0, 255) 
 COLOR_TEXT = (230, 230, 230)
 COLOR_OK   = (0, 255, 0)
 COLOR_BAD  = (0, 0, 255)
@@ -293,7 +293,7 @@ def main():
     out.release()
     try:
         if os.name == 'nt':
-            os.startfile(VIDEO_OUT)  # type: ignore[attr-defined]
+            os.startfile(VIDEO_OUT)  
         elif sys.platform == 'darwin':
             subprocess.Popen(['open', VIDEO_OUT], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         else:
@@ -303,3 +303,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
