@@ -46,6 +46,13 @@ project/
 
 ---
 
+
+
+## Clone the Repository
+'''
+git clone https://github.com/yanal154/Red_Light_Violation_Detection
+cd Red_Light_Violation_Detection
+'''
 ## 4. Download YOLOv12 Model
 
 Before running the project, you need to download the YOLOv12 weights file (`yolo12l.pt`) from the following link:
@@ -110,4 +117,5 @@ python main.py
 * **Violation rule**: if the **segment from previous center to current center** intersects the **violation line** **while** any ROI is red, the track ID is marked as violating (box turns **red** and stays red).
 
 ---
+
 
