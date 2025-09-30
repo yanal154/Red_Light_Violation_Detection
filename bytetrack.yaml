@@ -1,0 +1,10 @@
+tracker_type: bytetrack            
+track_high_thresh: 0.35          
+track_low_thresh: 0.10            
+new_track_thresh: 0.50           
+track_buffer: 80                  
+match_thresh: 0.80                
+fuse_score: True                 
+min_box_area: 400                 
+max_time_lost: 80                
+max_iou_distance: 0.70          
